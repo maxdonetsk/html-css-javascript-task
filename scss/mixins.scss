@@ -35,3 +35,12 @@ Example: @include background-size-cover;
     -o-background-size: cover; 
     background-size: cover;
 }
+
+/*
+Miin for calc.
+Example: @include calc(height, 50% - #{10px});
+*/
+@mixin calc($property, $expression) { 
+    #{$property}: -webkit-calc(#{$expression}); 
+    #{$property}: calc(#{$expression}); 
+} 

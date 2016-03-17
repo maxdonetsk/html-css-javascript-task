@@ -29,4 +29,27 @@ body {
 .table-cell {
     display: table-cell;
     vertical-align: middle;
+
+    @media (min-width: $screen-xs) {
+        padding: 0 $column-padding;
+    }
+
+    @media (min-width: $screen-sm) {
+        padding: 0 $column-padding * 2;
+    }
+
+    [class^="col-"] {
+        padding-left: $column-padding / 2;
+        padding-right: $column-padding / 2;
+    }
+}
+
+.block {
+    padding: $block-padding;
+    background-color: #FFF;
+
+    img {
+        margin-bottom: $block-padding - 7px;
+        width: 100%;
+    }
 }

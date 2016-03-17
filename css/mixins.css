@@ -5,6 +5,7 @@ ONLY mixins, no code here!
 ONLY variables, no code here! 
 */
 /*Bootstrap variables*/
+/*Custom variables*/
 /*
 Mixin for vendor-prefixes.
 Example: @include prefix((transform: translateY(-50%)));
@@ -12,6 +13,10 @@ Example: @include prefix((transform: translateY(-50%)));
 /*
 Mixin for background-size cover.
 Example: @include background-size-cover;
+*/
+/*
+Miin for calc.
+Example: @include calc(height, 50% - 10px);
 */
 
 /*# sourceMappingURL=mixins.css.map */

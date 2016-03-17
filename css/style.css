@@ -2,6 +2,7 @@
 ONLY variables, no code here! 
 */
 /*Bootstrap variables*/
+/*Custom variables*/
 /* Bootstrap imports */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
@@ -2410,6 +2411,7 @@ Override default rules of all frameworks and libraries here ONLY!
 ONLY variables, no code here! 
 */
 /*Bootstrap variables*/
+/*Custom variables*/
 /*
 ONLY mixins, no code here! 
 */
@@ -2417,6 +2419,7 @@ ONLY mixins, no code here!
 ONLY variables, no code here! 
 */
 /*Bootstrap variables*/
+/*Custom variables*/
 /*
 Mixin for vendor-prefixes.
 Example: @include prefix((transform: translateY(-50%)));
@@ -2426,9 +2429,14 @@ Mixin for background-size cover.
 Example: @include background-size-cover;
 */
 /*
+Miin for calc.
+Example: @include calc(height, 50% - 10px);
+*/
+/*
 ONLY variables, no code here! 
 */
 /*Bootstrap variables*/
+/*Custom variables*/
 @media (min-width: 768px) {
   .text-sm-left {
     text-align: left; }
@@ -2472,6 +2480,7 @@ Write custom rules here ONLY!
 ONLY variables, no code here! 
 */
 /*Bootstrap variables*/
+/*Custom variables*/
 /*
 ONLY mixins, no code here! 
 */
@@ -2479,6 +2488,7 @@ ONLY mixins, no code here!
 ONLY variables, no code here! 
 */
 /*Bootstrap variables*/
+/*Custom variables*/
 /*
 Mixin for vendor-prefixes.
 Example: @include prefix((transform: translateY(-50%)));
@@ -2486,6 +2496,10 @@ Example: @include prefix((transform: translateY(-50%)));
 /*
 Mixin for background-size cover.
 Example: @include background-size-cover;
+*/
+/*
+Miin for calc.
+Example: @include calc(height, 50% - 10px);
 */
 html, body {
   width: 100%;
@@ -2513,5 +2527,21 @@ body {
 .table-cell {
   display: table-cell;
   vertical-align: middle; }
+  @media (min-width: 480px) {
+    .table-cell {
+      padding: 0 50px; } }
+  @media (min-width: 768px) {
+    .table-cell {
+      padding: 0 100px; } }
+  .table-cell [class^="col-"] {
+    padding-left: 25px;
+    padding-right: 25px; }
+
+.block {
+  padding: 20px;
+  background-color: #FFF; }
+  .block img {
+    margin-bottom: 13px;
+    width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
