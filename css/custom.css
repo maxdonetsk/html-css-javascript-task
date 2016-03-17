@@ -61,9 +61,8 @@ body {
       padding: 25px 50px; } }
   .table-cell [class^="col-"] {
     padding-left: 25px;
-    padding-right: 25px; }
-    .table-cell [class^="col-"]:not(:last-of-type) {
-      margin-bottom: 25px; }
+    padding-right: 25px;
+    margin-bottom: 25px; }
 
 .block {
   padding: 20px;
@@ -89,5 +88,11 @@ body {
     color: #999999;
     font-size: 11px;
     text-align: left; }
+
+.user-activity button {
+  display: block;
+  margin: 0 auto; }
+  .user-activity button:first-of-type {
+    margin-bottom: 25px; }
 
 /*# sourceMappingURL=custom.css.map */

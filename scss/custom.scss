@@ -42,10 +42,7 @@ body {
     [class^="col-"] {
         padding-left: $column-padding;
         padding-right: $column-padding;
-
-        &:not(:last-of-type) {
-            margin-bottom: $column-padding;
-        }
+        margin-bottom: $column-padding;
     }
 }
 
@@ -82,5 +79,16 @@ body {
         color: lighten($gray-base, 60%);
         font-size: $font-size-small - 1;
         text-align: left;
+    }
+}
+
+.user-activity {
+    button {
+        display: block;
+        margin: 0 auto;
+
+        &:first-of-type {
+            margin-bottom: $column-padding;
+        }
     }
 }
