@@ -83,12 +83,21 @@ body {
 }
 
 .user-activity {
+    padding-bottom: ($padding-large-vertical * 2 + floor($font-size-large *  $line-height-large) + 2px) + $column-padding;
+    position: relative;
+
     .title {
         color: #FFF;
     }
 }
 
-#load-more {
+#switcher {
     margin: 0 auto $column-padding;
-    display: block;
+}
+
+#load-more {
+    @include prefix((transform: translateX(-50%)));
+    position: absolute;
+    left: 50%;
+    margin: 0 auto $column-padding;
 }

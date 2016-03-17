@@ -2759,11 +2759,23 @@ body {
     font-size: 11px;
     text-align: left; }
 
-.user-activity .title {
-  color: #FFF; }
+.user-activity {
+  padding-bottom: 70px;
+  position: relative; }
+  .user-activity .title {
+    color: #FFF; }
+
+#switcher {
+  margin: 0 auto 25px; }
 
 #load-more {
-  margin: 0 auto 25px;
-  display: block; }
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+  margin: 0 auto 25px; }
 
 /*# sourceMappingURL=style.css.map */
