@@ -2469,8 +2469,7 @@ body {
       padding: 25px 50px; } }
   .table-cell [class^="col-"] {
     padding-left: 25px;
-    padding-right: 25px;
-    text-align: center; }
+    padding-right: 25px; }
     .table-cell [class^="col-"]:not(:last-of-type) {
       margin-bottom: 25px; }
 

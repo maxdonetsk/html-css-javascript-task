@@ -42,7 +42,6 @@ body {
     [class^="col-"] {
         padding-left: $column-padding;
         padding-right: $column-padding;
-        text-align: center;
 
         &:not(:last-of-type) {
             margin-bottom: $column-padding;
