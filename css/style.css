@@ -2759,10 +2759,11 @@ body {
     font-size: 11px;
     text-align: left; }
 
-.user-activity button {
-  display: block;
-  margin: 0 auto; }
-  .user-activity button:first-of-type {
-    margin-bottom: 25px; }
+.user-activity .title {
+  color: #FFF; }
+
+#load-more {
+  margin: 0 auto 25px;
+  display: block; }
 
 /*# sourceMappingURL=style.css.map */

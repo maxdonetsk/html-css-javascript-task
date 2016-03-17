@@ -4,6 +4,7 @@
         <title>TrustSourcing Test</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bower_components/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.min.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
@@ -67,13 +68,18 @@
                         </div>
                     </div>
                     <div class="row text-center user-activity">
-                        <button type="button" class="btn btn-primary btn-lg" id="loadmore">Load more</button>
-                        <input type="checkbox" />
+                        <button type="button" class="btn btn-primary btn-lg" id="load-more">Load more</button>
+                        <div>
+                            <p class="title">Infinite scroll:</p>
+                            <input type="checkbox" id="infinite-scroll" />
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+        <script src="bower_components/bootstrap-switch/dist/js/bootstrap-switch.min.js"></script>
+        <script src="js/custom.js"></script>
     </body>
 </html>

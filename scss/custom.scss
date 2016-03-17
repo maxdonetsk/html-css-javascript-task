@@ -83,12 +83,12 @@ body {
 }
 
 .user-activity {
-    button {
-        display: block;
-        margin: 0 auto;
-
-        &:first-of-type {
-            margin-bottom: $column-padding;
-        }
+    .title {
+        color: #FFF;
     }
+}
+
+#load-more {
+    margin: 0 auto $column-padding;
+    display: block;
 }
