@@ -3,6 +3,7 @@ Write custom rules here ONLY!
 */
 
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss";
 @import "variables.scss";
 @import "mixins.scss";
 
@@ -96,6 +97,7 @@ body {
 }
 
 #load-more {
+    @include button-size($padding-large-vertical, $padding-large-horizontal, $font-size-large, $line-height-large, $btn-border-radius-large);
     @include prefix((transform: translateX(-50%)));
     position: absolute;
     left: 50%;
