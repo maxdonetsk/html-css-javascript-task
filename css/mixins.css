@@ -15,8 +15,8 @@ Mixin for background-size cover.
 Example: @include background-size-cover;
 */
 /*
-Miin for calc.
-Example: @include calc(height, 50% - 10px);
+Mixin for margin-bottom of inner elements in ".block" class.
+Example: @include block-margin-bottom;
 */
 
 /*# sourceMappingURL=mixins.css.map */

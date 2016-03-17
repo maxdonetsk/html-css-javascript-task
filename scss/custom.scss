@@ -18,7 +18,7 @@ body {
 
 #main {
     @include background-size-cover;
-    background-color: #CAAA9D;
+    background-color: #5A485E;
     background-image: url("../imgs/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -29,27 +29,59 @@ body {
 .table-cell {
     display: table-cell;
     vertical-align: middle;
+    padding: $column-padding 0;
 
     @media (min-width: $screen-xs) {
-        padding: 0 $column-padding;
+        padding: $column-padding;
     }
 
     @media (min-width: $screen-sm) {
-        padding: 0 $column-padding * 2;
+        padding: $column-padding $column-padding * 2;
     }
 
     [class^="col-"] {
-        padding-left: $column-padding / 2;
-        padding-right: $column-padding / 2;
+        padding-left: $column-padding;
+        padding-right: $column-padding;
+        text-align: center;
+
+        &:not(:last-of-type) {
+            margin-bottom: $column-padding;
+        }
     }
 }
 
 .block {
     padding: $block-padding;
+    display: inline-block;
     background-color: #FFF;
+    min-width: 190px;
+    max-width: 300px;
 
     img {
-        margin-bottom: $block-padding - 7px;
+        @include block-margin-bottom;
         width: 100%;
+    }
+
+    .rating {
+        @include block-margin-bottom;
+        color: lighten($gray-base, 77.4);
+
+        .active {
+            color: $gray-base;
+        }
+    }
+
+    .title {
+        @include block-margin-bottom;
+        color: $gray-dark;
+        font-size: $font-size-base;
+        text-transform: uppercase;
+        margin-top: 0;
+    }
+
+    .description {
+        color: lighten($gray-base, 60%);
+        font-size: $font-size-small - 1;
+        text-align: left;
     }
 }

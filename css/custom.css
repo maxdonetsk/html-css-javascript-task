@@ -23,8 +23,8 @@ Mixin for background-size cover.
 Example: @include background-size-cover;
 */
 /*
-Miin for calc.
-Example: @include calc(height, 50% - 10px);
+Mixin for margin-bottom of inner elements in ".block" class.
+Example: @include block-margin-bottom;
 */
 html, body {
   width: 100%;
@@ -42,7 +42,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: #CAAA9D;
+  background-color: #5A485E;
   background-image: url("../imgs/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -51,22 +51,44 @@ body {
 
 .table-cell {
   display: table-cell;
-  vertical-align: middle; }
+  vertical-align: middle;
+  padding: 25px 0; }
   @media (min-width: 480px) {
     .table-cell {
-      padding: 0 50px; } }
+      padding: 25px; } }
   @media (min-width: 768px) {
     .table-cell {
-      padding: 0 100px; } }
+      padding: 25px 50px; } }
   .table-cell [class^="col-"] {
     padding-left: 25px;
-    padding-right: 25px; }
+    padding-right: 25px;
+    text-align: center; }
+    .table-cell [class^="col-"]:not(:last-of-type) {
+      margin-bottom: 25px; }
 
 .block {
   padding: 20px;
-  background-color: #FFF; }
+  display: inline-block;
+  background-color: #FFF;
+  min-width: 190px;
+  max-width: 300px; }
   .block img {
     margin-bottom: 13px;
     width: 100%; }
+  .block .rating {
+    margin-bottom: 13px;
+    color: #c5c5c5; }
+    .block .rating .active {
+      color: #000; }
+  .block .title {
+    margin-bottom: 13px;
+    color: #333333;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 0; }
+  .block .description {
+    color: #999999;
+    font-size: 11px;
+    text-align: left; }
 
 /*# sourceMappingURL=custom.css.map */
