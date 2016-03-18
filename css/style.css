@@ -2753,11 +2753,16 @@ body {
     color: #333333;
     font-size: 14px;
     text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     margin-top: 0; }
   .block .description {
     color: #999999;
     font-size: 11px;
-    text-align: left; }
+    text-align: left;
+    height: 45px;
+    overflow: hidden; }
 
 .user-activity {
   padding-bottom: 70px;
