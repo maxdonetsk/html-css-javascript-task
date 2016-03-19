@@ -2739,7 +2739,10 @@ body {
   display: inline-block;
   background-color: #FFF;
   min-width: 190px;
-  max-width: 300px; }
+  max-width: 200px; }
+  @media (min-width: 330px) {
+    .block {
+      max-width: 300px; } }
   .block img {
     margin-bottom: 13px;
     width: 100%; }

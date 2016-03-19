@@ -52,7 +52,11 @@ body {
     display: inline-block;
     background-color: #FFF;
     min-width: 190px;
-    max-width: 300px;
+    max-width: 200px;
+
+    @media (min-width: $block-max-width + $grid-gutter-width) {
+        max-width: $block-max-width;
+    }
 
     img {
         @include block-margin-bottom;

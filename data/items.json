@@ -1,57 +1,20 @@
 [
   {
-    "title": "new zealand timelapse",
-    "paragraph": "Equipé de son appareil Canon 5D Mark II, le réalis ateur Bevan Percival nous offre une nouvelle vidéo en  technique timelapse absolument magnifique",
-    "image": "/imgs/1.jpg"
+    "title": "We are the champions",
+    "paragraph": "We are the champions, my friends, And we'll keep on fighting 'til the end. We are the champions. We are the champions. No time for losers 'Cause we are the champions of the world",
+    "image": "/imgs/1.jpg",
+    "rating": "3"
   },
   {
-    "title": "title 2",
-    "paragraph": "paragraph2",
-    "image": "/imgs/2.jpg"
+    "title": "Weiterlaufen",
+    "paragraph": "Wenn du den ganzen Tag kämpfen musst, um zu überleben, wenn das Glück und die Gerechtigkeit dich übergehen, und deine Hoffnung verbrennt, auf dem Scheiterhaufen, dann musst du weiterlaufen, du musst weiterlaufen!",
+    "image": "/imgs/2.jpg",
+    "rating": "4"
   },
   {
-    "title": "title 3",
-    "paragraph": "paragraph23",
-    "image": "/imgs/3.jpg"
-  },
-  {
-    "title": "new zealand timelapse",
-    "paragraph": "Equipé de son appareil Canon 5D Mark II, le réalis ateur Bevan Percival nous offre une nouvelle vidéo en  technique timelapse absolument magnifique",
-    "image": "/imgs/1.jpg"
-  },
-  {
-    "title": "title 2",
-    "paragraph": "paragraph2",
-    "image": "/imgs/2.jpg"
-  },
-  {
-    "title": "title 3",
-    "paragraph": "paragraph23",
-    "image": "/imgs/3.jpg"
-  },
-  {
-    "title": "new zealand timelapse",
-    "paragraph": "Equipé de son appareil Canon 5D Mark II, le réalis ateur Bevan Percival nous offre une nouvelle vidéo en  technique timelapse absolument magnifique",
-    "image": "/imgs/1.jpg"
-  },
-  {
-    "title": "title 2",
-    "paragraph": "paragraph2",
-    "image": "/imgs/2.jpg"
-  },
-  {
-    "title": "title 3",
-    "paragraph": "paragraph23",
-    "image": "/imgs/3.jpg"
-  },
-  {
-    "title": "new zealand timelapse",
-    "paragraph": "Equipé de son appareil Canon 5D Mark II, le réalis ateur Bevan Percival nous offre une nouvelle vidéo en  technique timelapse absolument magnifique",
-    "image": "/imgs/1.jpg"
-  },
-  {
-    "title": "title 2",
-    "paragraph": "paragraph2",
-    "image": "/imgs/2.jpg"
+    "title": "Wer Schön Sein Will, Muss Leiden",
+    "paragraph": "Wer schön sein will muss leiden, mein Kind Die Welt wird Dich beneiden, mein Kind Weisst du nicht, wer seine Seele an die Hölle verkauft Wird immer jung sein, schön und schlank mit flachem Bauch Und ich weiss, dass willst Du auch",
+    "image": "/imgs/3.jpg",
+    "rating": "5"
   }
 ]
