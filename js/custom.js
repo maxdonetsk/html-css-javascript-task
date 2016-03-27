@@ -17,8 +17,7 @@ $(document).ready(function () {
 
         } else {
             loadmore.fadeIn('fast');
-            $(window).unbind('scroll'); //this shit works
-            return; //this shit doesn't work
+            $(window).unbind('scroll');
         }
     });
 
@@ -42,7 +41,7 @@ $(document).ready(function () {
                                 $(data).find('.rating > span').eq(i).addClass('active');
                             }
                             if ($(data).is('[class^="col-"]')) {
-                                //it's better to implemented this feature in css, but i'm lazy
+                                //honestly, it's better to implemented this feature in css
                                 var n = 3; //each nth element; equals to column number
                                 if (index % n === 0) {
                                     data.className = data.className + ' text-center text-md-right';
