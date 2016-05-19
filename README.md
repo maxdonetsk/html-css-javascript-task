@@ -11,7 +11,6 @@
 
 Layout:
 ![Layout](/testWork.png)
-* Try to make your code readable and modular.
 
 ####JavaScript coding
 3. Add the "Load more” button (design and layout in its sole discretion).
